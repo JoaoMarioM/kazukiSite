@@ -1,0 +1,136 @@
+.dedete{
+    margin: 30px auto 20px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  
+  }
+  
+  .dede{
+      background-color: #fff;
+      width: 250px;
+      border-radius: 15px;
+      text-align: center;
+      border: solid #009bdb;
+      transition: .4s;
+      padding-bottom: 8px;
+     
+      img{
+          height: 80px;
+          
+      }
+      p{
+          margin-top: 10px;
+          width: 150px;
+      }
+  
+      &:hover{
+          border: 1px solid #fff;
+          box-shadow: 5px 5px 5px 5px #333;
+          transform: translateY(-10px);
+      }
+  }
+  
+  @media(max-width: 1055px){
+      .dedete{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          grid-row-gap: 10px;
+  }
+  .ddt{
+        width: 90%;
+        p{
+            width: 100%; 
+           
+        }
+       
+    }
+    .dsc{
+        width: 90%;
+      p{
+          width: 100%; 
+      }
+     
+      }
+      .drt{
+        width: 90%;
+          p{
+              width: 100%; 
+          }
+      
+      }
+      .dtp{
+        width: 90%;
+          p{
+              width: 100%; 
+          }
+      
+      }
+  
+  }
+  
+  // Responsive tablet
+  @media(max-width: 768px){
+  .dedete{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 10px;
+  
+      .dede{
+          display: table;
+          margin: 0 auto;
+    
+      }
+  
+  }
+  
+  }
+  
+  
+  // End responsive tablet
+  
+  
+  // Responsive mobile
+  @media(max-width: 555px){
+  .dedete{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  
+    .dede{
+        display: table;
+        margin: 0 auto;
+  
+    }
+  
+    .ddt{
+        width: 90%;
+        p{
+            width: 100%; 
+           
+        }
+       
+    }
+    .dsc{
+        width: 90%;
+      p{
+          width: 100%; 
+      }
+     
+      }
+      .drt{
+        width: 90%;
+          p{
+              width: 100%; 
+          }
+      
+      }
+      .dtp{
+        width: 90%;
+          p{
+              width: 100%; 
+          }
+      
+      }
+  
+  }
+  }

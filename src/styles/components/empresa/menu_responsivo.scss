@@ -1,0 +1,30 @@
+.menu_responsivo{
+    transition: 0.5s;
+    width: 80%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    background-color: #333;
+    // opacity: 0.8;
+    ul li{
+        display: block;
+    }
+
+    &.ativo{
+        display: block;
+    }
+}
+.toggle{
+    margin-top: 15px;
+    display: none;
+    float: right;
+}
+
+
+// responsive cell
+
+@media(max-width: 425px){
+    .toggle{
+        display: block;
+    }
+}

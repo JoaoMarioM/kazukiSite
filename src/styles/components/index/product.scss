@@ -1,0 +1,64 @@
+.product{
+    align-items: center;
+    
+     p{ 
+        margin-top: 30px;
+        font-size: 30px;
+        text-align: center;
+        color: #333;
+    }
+    .logoProd{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-row-gap: 20px;
+        
+    }
+    .pro{
+        display: table;
+        margin: 0 auto 10px auto;
+    }
+    .product1{
+        background-image: url('../images/bayer.png');
+        width: 130px;
+        height: 130px;
+        border-radius: 70px;
+        
+    }
+    .product2{
+        background-image: url('../images/basf.jpg');
+        width: 130px;
+        height: 130px;
+        border-radius: 70px;
+        
+    }
+    .product3{
+        background-image: url('../images/rogama.jpg');
+        width: 130px;
+        height: 130px;
+        border-radius: 70px;
+        
+        
+    }
+    .product4{
+        background-image: url('../images/syngenta.jpg');
+        width: 130px;
+        height: 130px;
+        border-radius: 70px;
+        
+    }
+
+}
+
+@media(max-width: 555px){
+    .product{
+        p{
+            font-size: 25px;
+        }
+        .logoProd{
+            grid-template-columns: repeat(2, 1fr);
+            grid-row-gap: 20px;
+        }
+    }
+    
+}

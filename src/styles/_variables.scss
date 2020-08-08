@@ -1,0 +1,96 @@
+// Grid settings
+$grid-gutter-width: 16px;
+$grid-columns: 12;
+
+//grid responsive
+$cell: max-width 440px;
+$tablet: max-width 991px;
+
+$screen-sm: 768px;
+$screen-md: 1024px;
+$screen-lg: 1280px;
+
+$grid-container-max-size: 1280px;
+
+// Colors settings
+$color-yellow: #F6E71C;
+$color-purple: #572580;
+$color-ltgray: #F5F5F5;
+$color-gray: #B1B1B1; // Extracted from layout
+$color-black: #333333;
+$color-success: #3AB572;
+$color-organe: #F0AC4A;
+$color-danger: #C23F3B;
+
+$color-lgray-text: #999;
+$color-gray-text: #666;
+$color-hgray-text: #333;
+
+// Typography settings
+// @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Saira:300,400,700');
+
+$font-display: 'Saira', sans-serif;
+$font-text: 'Open Sans', sans-serif;
+$font-weight-heading: 400;
+
+$font-color-body: $color-black;
+
+$font-size-h1: 36px;
+$font-size-h2: 32px;
+$font-size-h3: 28px;
+$font-size-h4: 24px;
+$font-size-h5: 20px;
+$font-size-lead: 18px;
+$font-size-body: 16px;
+$font-size-sm: 15px;
+$font-size-xs: 12px;
+
+$font-size-h1-md: 48px;
+$font-size-h2-md: 36px;
+$font-size-h3-md: 32px;
+$font-size-h4-md: 28px;
+$font-size-h5-md: 24px;
+$font-size-lead-md: 20px;
+$font-size-body-md: 14px;
+$font-size-sm-md: 13px;
+$font-size-xs-md: 10px;
+
+$line-height-h1: 56px;
+$line-height-h2: 44px;
+$line-height-h3: 40px;
+$line-height-h4: 36px;
+$line-height-h5: 32px;
+
+// Separators
+$separate-base: 32px;
+$separate-title-from-content: $separate-base * 2;
+$separate-text-from-content: $separate-base + 16px;
+
+// Icons
+$icomoon-font-family: "labiicons" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-heart: "\e916";
+$icon-tests: "\e917";
+$icon-close: "\e915";
+$icon-bank-slip: "\e912";
+$icon-new-credit-card: "\e913";
+$icon-safe-buy: "\e914";
+$icon-facebook-fill: "\e911";
+$icon-whatsapp: "\e910";
+$icon-email: "\e900";
+$icon-faq: "\e901";
+$icon-linkedin-fulll: "\e902";
+$icon-loupe: "\e903";
+$icon-map-pin: "\e904";
+$icon-cart: "\e905";
+$icon-instagram: "\e906";
+$icon-facebook: "\e907";
+$icon-linkedin: "\e908";
+$icon-microscope: "\e909";
+$icon-results: "\e90a";
+$icon-account: "\e90b";
+$icon-call-doctor: "\e90c";
+$icon-discount: "\e90d";
+$icon-clock: "\e90e";
+$icon-tube: "\e90f";

@@ -1,0 +1,57 @@
+.qualified{
+    display: flex;
+    background-color: #fff;
+    margin-top: 99px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+}
+.cont{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.qua{
+    display: table;
+    margin: 0 auto;
+}
+.tecnico img{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-radius: 5px;
+}
+.text{
+    width: 415px;
+    float: right;
+    margin-top: 35px;
+    font-family: 'Inria Serif', serif;
+    
+    p{
+        font-size: 25px;
+        line-height: 1.2;
+    }
+}
+
+
+// Responsive mobile
+
+@media(max-width: 555px){
+.qualified{
+    width: 100%;
+}
+.text{
+    width: 90%;
+
+    p{
+        font-size: 20px;
+    }
+}
+
+}
+
+.cont img{
+    width: 100%;
+}

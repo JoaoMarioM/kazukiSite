@@ -1,0 +1,61 @@
+.certificates{
+    background-color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .text2 {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+        color: #333;
+        
+    }
+  
+    .logoCert{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{
+        width: 130px;
+        height: 130px;
+        border-radius: 70px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .logo1{
+        
+        background-image: url('../images/vigilancia.jpg');
+    }
+    .logo2{
+
+        background-image: url('../images/ppra.jpg');
+    }
+    .logo3{
+
+        background-image: url('../images/pcmso.jpg');
+    }
+    .logo4{
+
+        background-image: url('../images/crq.jpg');
+    }
+    .logo5{
+
+        background-image: url('../images/bombeiro.png');
+    }
+    .logo6{
+
+        background-image: url('../images/epi.jpg');
+    }
+}
+
+@media(max-width: 425px){
+    .certificates{
+        .text2{
+            font-size: 25px;
+        }
+    }
+    
+}

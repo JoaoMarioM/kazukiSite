@@ -1,0 +1,43 @@
+.header1{
+    background-image: url('../images/fundoS.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.sobre{
+    h1{
+        color: #333;
+        margin-top: 30px;
+        font-family: 'PT sans', sans-serif;
+    }
+    p{
+        // width: 50%;
+        font-size: 22px;
+        line-height: 1.2;
+        font-family: 'Inria Serif', serif;
+
+    }
+}
+
+.cont1 img{
+    width: 80%;
+    margin-top: 30px;
+   
+   
+}
+
+// responsive cell
+
+@media(max-width: 425px){
+    .sobre{
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+.cont1 img{
+    width: 100%;
+}

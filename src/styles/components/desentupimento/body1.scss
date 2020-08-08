@@ -1,0 +1,103 @@
+.geral{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    .area{
+      p{
+        font-size: 22px;
+        color: #333;
+      }
+      .check{
+        font-size: 17px;
+        font-family: 'Inria Serif', serif;
+      }
+    }
+   
+  
+    .txt{
+      p{
+        width: 430px;
+        font-size: 19px;
+        line-height: 1.2;
+        font-family: 'Inria Serif', serif;
+      }
+    }
+    .icons{
+      float: left;
+      // margin-top: 70px;
+    }
+    .circle{
+      font-size: 17px;
+      font-family: 'Inria Serif', serif;
+    
+     
+    }
+    .map{
+      size: 7x;
+      p{
+        font-size: 20px;
+        font-family: 'Inria Serif', serif;
+    
+      }
+    }
+    .loc{
+      size: 7x;
+      p{
+        font-size: 20px;
+        font-family: 'Inria Serif', serif;
+      }
+    }
+  }
+
+  .r{
+    display: none;
+  }
+// Responsive tablet
+
+@media(max-width: 768px){
+  .geral{
+        
+    .center{
+      display: table;
+      margin: 0 auto;
+    }
+    .txt{
+      p{
+        width: 100%;
+      }
+      
+    }
+  }
+  
+  .r{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
+
+
+// responsive cell
+    @media(max-width: 425px){
+      .geral{
+        
+        .center{
+          display: table;
+          margin: 0 auto;
+        }
+        .txt{
+          p{
+            width: 100%;
+          }
+          
+        }
+      }
+      
+      .r{
+        display: block;
+        margin-bottom: 20px;
+      }
+
+    }

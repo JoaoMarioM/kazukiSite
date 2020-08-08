@@ -1,0 +1,12 @@
+.whatsapp{
+    right: 20px;
+    // float: right;
+    // margin-right: 10px;
+    position: fixed;
+}
+
+@media(max-width: 425px){
+    .whatsapp{
+        margin-top: -70px;
+    }
+}

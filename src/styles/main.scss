@@ -1,0 +1,16 @@
+@import 'variables';
+
+@import 'common/*.scss';
+
+@import 'mixins/clearfix';
+
+@import 'components/*.scss';
+@import 'components/index/*.scss';
+@import 'components/empresa/*.scss';
+@import 'components/dedetizadora/*.scss';
+@import 'components/desentupimento/*.scss';
+@import 'components/contato/*.scss';
+
+@import 'body';
+
+ 

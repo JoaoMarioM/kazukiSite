@@ -1,0 +1,110 @@
+.bw{
+  background-color: #fff;
+}
+.alin{
+  display: table;
+  margin: 0 auto;
+}
+.half1{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  
+    
+    .wrapper{
+    width: 380px;
+   
+  
+    h1{
+      color: #333;
+      font-size: 25px;
+    }
+  
+  button.accordion{
+    background: #009bdb;
+    color: #fff;
+    cursor: pointer;
+    padding: 1px;
+    width: 380px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #4fcaff;
+    transition: .4s;
+  }
+  button:focus{
+    outline: none;
+  }
+  button.accordion.active, button.accordion:hover{
+    background: #034764;
+  }
+  .panel{
+    background-color: #fff;
+    padding: 0 18px;
+    color: #000;
+    max-height: 0;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 20px;
+    transition: max-height .4s ease-out;
+  
+    h2{
+      color: #333;
+      font-size: 20px;
+    }
+  }
+  
+  }
+  .icons{
+    float: left;
+    margin-top: 20px;
+  }
+  .circle{
+   
+      font-size: 17px;
+      font-family: 'Inria Serif', serif;
+  
+    
+  }
+  .map{
+   
+      font-size: 17px;
+      font-family: 'Inria Serif', serif;
+  
+    
+  }
+  .loc{
+  
+    
+      font-size: 17px;
+      font-family: 'Inria Serif', serif;
+   
+  }
+  
+  }
+
+
+  // responsive cell
+
+@media(max-width: 745px){
+  .half1{
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  
+  .wrapper{
+    width: 90%;
+  button.accordion{
+    width: 100%;
+  }
+
+  .panel{
+    h2{
+      margin-top: 10px;
+    }
+  }
+}
+}
+
+}

@@ -1,0 +1,170 @@
+.item{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+  }
+  .sub{
+    border-style: solid;
+    border-color: #fff;
+    display: table;
+    margin: 0 auto;
+    border: solid #009bdb;
+    transition: .4s;
+
+    &:hover{
+      border: 1px solid #fff;
+      box-shadow: 5px 5px 5px 5px #333;
+      transform: translateY(-10px);
+    }
+  }
+  .SubItem1{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+   
+  
+   p{
+      margin: 10px ;
+    }
+  
+    strong{
+      margin: 10px;
+      font-size: 20px;
+    }
+
+  }
+  .SubItem2{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  
+    p{
+      margin: 10px;
+    }
+    strong{
+      margin: 10px;
+      font-size: 20px;
+  
+    }
+  
+  }
+  .SubItem3{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  
+    p{
+      margin: 10px;
+    }
+    strong{
+      margin: 10px;
+      font-size: 20px;
+  
+    }
+  
+  }
+  
+  .item2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .SubItem4{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  
+   p{
+      margin: 10px ;
+    }
+  
+    strong{
+      margin: 10px;
+      font-size: 20px;
+    }
+  
+  }
+  .SubItem5{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  
+    p{
+      margin: 10px;
+    }
+    strong{
+      margin: 10px;
+      font-size: 20px;
+  
+    }
+  
+  }
+  .SubItem6{
+    width: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+  
+    p{
+      margin: 10px;
+    }
+    strong{
+      margin: 10px;
+      font-size: 20px;
+  
+    }
+  
+  }
+
+  // Responsive tablet
+
+@media(max-width: 768px){
+  .item{
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+  .item2{
+    margin-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+}
+
+   // responsive cell
+
+@media(max-width: 555px){
+  .item{
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  }
+  .item2{
+    margin-top: 10px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  }
+}
+
+.SubItem1{
+  width: 90%;
+}
+.SubItem2{
+  width: 90%;
+}
+.SubItem3{
+  width: 90%;
+}
+.SubItem4{
+  width: 90%;
+}
+.SubItem5{
+  width: 90%;
+}
+.SubItem6{
+  width: 90%;
+}
